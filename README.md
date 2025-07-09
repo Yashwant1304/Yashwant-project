@@ -101,7 +101,7 @@ This document describes the high‑level architecture of the Dynamic Pricing for
    - (Optional) Expose via ngrok or cloud service for remote access  
 
 ---
-
+~~~text
 ## 2. Data Flow
 
 
@@ -140,7 +140,7 @@ This document describes the high‑level architecture of the Dynamic Pricing for
 │  • Panel layout           │
 │  • Interactive controls   │
 └───────────────────────────┘
-
+~~~
 ## Workflow
 
 The end‑to‑end workflow for the Dynamic Parking Pricing system consists of the following stages:
@@ -197,7 +197,7 @@ The end‑to‑end workflow for the Dynamic Parking Pricing system consists of t
 
 ### Workflow Diagram
 
-text
+~~~text
 ┌─────────────────┐
 │ Data Ingestion  │<─── CSV or Streaming ───┐
 │  (Pathway)      │                          │
